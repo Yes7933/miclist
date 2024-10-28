@@ -643,7 +643,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 		child = document.createElement("div");
 		child.classList.add("thinger");
-		child.innerHTML = "If this is the only thing you are seeing, there are no results!";
+		child.innerHTML = "If this is the only thing you are seeing, there are no results. Refresh to clear your filters. <br> Otherwise, this is the end of the page.";
 		document.getElementById("miclist").appendChild(child);
 	}
 	//turns a list into a list of unique items
