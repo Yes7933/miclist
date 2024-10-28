@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Live Vocals"],
 			owner: "GHS",
 			quantity: "5",
-			image: "/img/SM58.png",
-			freqgraph: "/img/sm58f.png",
+			image: "img/SM58.png",
+			freqgraph: "img/sm58f.png",
 			freqrange: "50-15000Hz",
 		},
 		{
@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Live Vocals"],
 			owner: "Howard",
 			quantity: "1",
-			image: "/img/SM58.png",
-			freqgraph: "/img/sm58f.png",
+			image: "img/SM58.png",
+			freqgraph: "img/sm58f.png",
 			freqrange: "50-15000Hz",
 		},
 		{
@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Guitar Amps", "Snare"],
 			owner: "GHS",
 			quantity: "2",
-			image: "/img/SM57.png",
-			freqgraph: "/img/sm57f.png",
+			image: "img/SM57.png",
+			freqgraph: "img/sm57f.png",
 			freqrange: "40-15000Hz",
 		},
 		{
@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Guitar Amps", "Snare"],
 			owner: "Howard",
 			quantity: "2",
-			image: "/img/SM57.png",
-			freqgraph: "/img/sm57f.png",
+			image: "img/SM57.png",
+			freqgraph: "img/sm57f.png",
 			freqrange: "40-15000Hz",
 		},
 		{
@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Live Vocals", "Studio Vocals"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/Beta 58.png",
-			freqgraph: "/img/beta58f.png",
+			image: "img/Beta 58.png",
+			freqgraph: "img/beta58f.png",
 			freqrange: "50-16000Hz",
 		},
 		{
@@ -75,8 +75,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Live Vocals", "Studio Vocals"],
 			owner: "Howard",
 			quantity: "2",
-			image: "/img/Beta 58.png",
-			freqgraph: "/img/beta58f.png",
+			image: "img/Beta 58.png",
+			freqgraph: "img/beta58f.png",
 			freqrange: "50-16000Hz",
 		},
 		{
@@ -88,8 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Acoustic Insturments", "Guitar Amps", "Vocals"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/Beta 57.png",
-			freqgraph: "/img/beta57f.png",
+			image: "img/Beta 57.png",
+			freqgraph: "img/beta57f.png",
 			freqrange: "50-16000Hz",
 		},
 		{
@@ -101,8 +101,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Acoustic Insturments", "Guitar Amps", "Vocals"],
 			owner: "Howard",
 			quantity: "1",
-			image: "/img/Beta 57.png",
-			freqgraph: "/img/beta57f.png",
+			image: "img/Beta 57.png",
+			freqgraph: "img/beta57f.png",
 			freqrange: "50-16000Hz",
 		},
 		{
@@ -114,8 +114,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Kick"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/Beta 52.png",
-			freqgraph: "/img/beta52f.png",
+			image: "img/Beta 52.png",
+			freqgraph: "img/beta52f.png",
 			freqrange: "20-10000Hz",
 		},
 		{
@@ -127,8 +127,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Bass"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/SM7b.png",
-			freqgraph: "/img/sm7bf.png",
+			image: "img/SM7b.png",
+			freqgraph: "img/sm7bf.png",
 			freqrange: "50-20000Hz",
 		},
 		{
@@ -140,8 +140,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Distorted Sounds"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/Unidyn 55S.png",
-			freqgraph: "/img/unidyn55sf.png",
+			image: "img/Unidyn 55S.png",
+			freqgraph: "img/unidyn55sf.png",
 			freqrange: "40-15000Hz",
 		},
 		{
@@ -153,8 +153,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Toms", "Sax"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/MD421.png",
-			freqgraph: "/img/md421f.png",
+			image: "img/MD421.png",
+			freqgraph: "img/md421f.png",
 			freqrange: "30-17000Hz",
 		},
 		{
@@ -166,8 +166,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals"],
 			owner: "Howard",
 			quantity: "1",
-			image: "/img/835.png",
-			freqgraph: "/img/835f.png",
+			image: "img/835.png",
+			freqgraph: "img/835f.png",
 			freqrange: "40-16000Hz",
 		},
 		{
@@ -179,8 +179,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Kick"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/e602-ii.png",
-			freqgraph: "/img/e602iif.png",
+			image: "img/e602-ii.png",
+			freqgraph: "img/e602iif.png",
 			freqrange: "20-16000Hz",
 		},
 		{
@@ -192,8 +192,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Drums", "Acoustic Insturments"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/PR-30.png",
-			freqgraph: "/img/pr30f.png",
+			image: "img/PR-30.png",
+			freqgraph: "img/pr30f.png",
 			freqrange: "40-18000Hz",
 		},
 		{
@@ -205,8 +205,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Drums", "Acoustic Insturments"],
 			owner: "Howard",
 			quantity: "1",
-			image: "/img/PR-40.png",
-			freqgraph: "/img/pr40f.png",
+			image: "img/PR-40.png",
+			freqgraph: "img/pr40f.png",
 			freqrange: "28-18000Hz",
 		},
 		{
@@ -218,8 +218,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Bass Amp"],
 			owner: "Howard",
 			quantity: "1",
-			image: "/img/RE20.png",
-			freqgraph: "/img/re20f.png",
+			image: "img/RE20.png",
+			freqgraph: "img/re20f.png",
 			freqrange: "45-18000Hz",
 		},
 		{
@@ -231,8 +231,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Room", "Guitar Amps"],
 			owner: "Howard",
 			quantity: "1",
-			image: "/img/635a.png",
-			freqgraph: "/img/635af.png",
+			image: "img/635a.png",
+			freqgraph: "img/635af.png",
 			freqrange: "80-13000Hz",
 		},
 		{
@@ -244,8 +244,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["n/a"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/ND257.png",
-			freqgraph: "/img/nd257f.png",
+			image: "img/ND257.png",
+			freqgraph: "img/nd257f.png",
 			freqrange: "35-19000Hz",
 		},
 		{
@@ -257,8 +257,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals"],
 			owner: "Howard",
 			quantity: "2",
-			image: "/img/PM9.png",
-			freqgraph: "/img/pm9f.png",
+			image: "img/PM9.png",
+			freqgraph: "img/pm9f.png",
 			freqrange: "50-19000Hz",
 		},
 		{
@@ -270,8 +270,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Room"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/MD30.png",
-			freqgraph: "/img/naf.png",
+			image: "img/MD30.png",
+			freqgraph: "img/naf.png",
 			freqrange: "60-15000Hz",
 		},
 		{
@@ -283,8 +283,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Foley", "FX"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/MKE600.png",
-			freqgraph: "/img/mke600f.png",
+			image: "img/MKE600.png",
+			freqgraph: "img/mke600f.png",
 			freqrange: "40-20000Hz",
 		},
 		{
@@ -296,8 +296,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Kick Front"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/F357.png",
-			freqgraph: "/img/f357f.png",
+			image: "img/F357.png",
+			freqgraph: "img/f357f.png",
 			freqrange: "25-20000Hz",
 		},
 		{
@@ -309,8 +309,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Drum Overhead", "Acoustic Insturments", "Stereo Pickup"],
 			owner: "GHS",
 			quantity: "2",
-			image: "/img/1973.png",
-			freqgraph: "/img/naf.png",
+			image: "img/1973.png",
+			freqgraph: "img/naf.png",
 			freqrange: "30-18000Hz",
 		},
 		{
@@ -322,8 +322,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Acoustic Insturments"],
 			owner: "Howard",
 			quantity: "1",
-			image: "/img/AT4040.png",
-			freqgraph: "/img/at4040f.png",
+			image: "img/AT4040.png",
+			freqgraph: "img/at4040f.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -335,8 +335,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Acoustic Insturments"],
 			owner: "GHS",
 			quantity: "2",
-			image: "/img/AT2020.png",
-			freqgraph: "/img/at2020f.png",
+			image: "img/AT2020.png",
+			freqgraph: "img/at2020f.png",
 			freqrange: "80-16000Hz",
 		},
 		{
@@ -348,8 +348,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Vocals", "Acoustic Insturments"],
 			owner: "GHS",
 			quantity: "2",
-			image: "/img/AT2050.png",
-			freqgraph: "/img/at2050f.png",
+			image: "img/AT2050.png",
+			freqgraph: "img/at2050f.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -361,8 +361,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Acoustic Insturments"],
 			owner: "GHS",
 			quantity: "5",
-			image: "/img/AE5100.png",
-			freqgraph: "/img/ae5100f.png",
+			image: "img/AE5100.png",
+			freqgraph: "img/ae5100f.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -374,8 +374,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Acoustic Insturments", "Drum Overhead"],
 			owner: "GHS",
 			quantity: "3",
-			image: "/img/AT4041.png",
-			freqgraph: "/img/at4041f.png",
+			image: "img/AT4041.png",
+			freqgraph: "img/at4041f.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -387,8 +387,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Acoustic Insturments", "Vocals"],
 			owner: "GHS",
 			quantity: "4",
-			image: "/img/NT1a.png",
-			freqgraph: "/img/nt1af.png",
+			image: "img/NT1a.png",
+			freqgraph: "img/nt1af.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -400,8 +400,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Acoustic Insturments"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/CM4.png",
-			freqgraph: "/img/cm4f.png",
+			image: "img/CM4.png",
+			freqgraph: "img/cm4f.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -413,8 +413,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Acoustic Insturments"],
 			owner: "n/a",
 			quantity: "2",
-			image: "/img/CM3.png",
-			freqgraph: "/img/cm3f.png",
+			image: "img/CM3.png",
+			freqgraph: "img/cm3f.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -426,8 +426,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Acoustic Insturments", "Guitar Amps", "Vocals"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/N8.png",
-			freqgraph: "/img/n8f.png",
+			image: "img/N8.png",
+			freqgraph: "img/n8f.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -439,8 +439,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Room", "Ambiance"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/U851RBO.png",
-			freqgraph: "/img/u851rbof.png",
+			image: "img/U851RBO.png",
+			freqgraph: "img/u851rbof.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -452,8 +452,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Ambiance", "Stereo Pickup"],
 			owner: "GHS",
 			quantity: "1",
-			image: "/img/NT-SF1.png",
-			freqgraph: "/img/naf.png",
+			image: "img/NT-SF1.png",
+			freqgraph: "img/naf.png",
 			freqrange: "30-20000Hz",
 		},
 		{
@@ -465,8 +465,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["DI High Quality"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/JDI.png",
-			freqgraph: "/img/linearf.png",
+			image: "img/JDI.png",
+			freqgraph: "img/linearf.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -478,8 +478,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["DI"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/ProDI.png",
-			freqgraph: "/img/linearf.png",
+			image: "img/ProDI.png",
+			freqgraph: "img/linearf.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -491,8 +491,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["DI"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/ProD2.png",
-			freqgraph: "/img/linearf.png",
+			image: "img/ProD2.png",
+			freqgraph: "img/linearf.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -504,8 +504,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Kick", "Effect"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/DIY.png",
-			freqgraph: "/img/naf.png",
+			image: "img/DIY.png",
+			freqgraph: "img/naf.png",
 			freqrange: "20-1000Hz",
 		},
 		{
@@ -517,8 +517,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Reamping Mic Signals"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/A95UF.png",
-			freqgraph: "/img/linearf.png",
+			image: "img/A95UF.png",
+			freqgraph: "img/linearf.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -530,8 +530,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Reamping Mic Signals"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/X-AMP.png",
-			freqgraph: "/img/linearf.png",
+			image: "img/X-AMP.png",
+			freqgraph: "img/linearf.png",
 			freqrange: "20-20000Hz",
 		},
 		{
@@ -543,8 +543,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Reamping Mic Signals"],
 			owner: "n/a",
 			quantity: "n/a",
-			image: "/img/PRO-RMP.png",
-			freqgraph: "/img/linearf.png",
+			image: "img/PRO-RMP.png",
+			freqgraph: "img/linearf.png",
 			freqrange: "20-20000Hz",
 		},
 
@@ -566,8 +566,8 @@ document.addEventListener("DOMContentLoaded", () => {
         copy and paste end here
         fill out in the quotation marks, if you want to add other usages add another set of quotation marks after the comma in the brackets (["text",] into ["text", "text2",]
         if you don't know in anything add an "n/a"
-		for images drag the image into the img folder and put "/img/" infront of the file name 
-		use /img/linearf.png for linear freq graphs and /img/naf.png for ones that you dont know
+		for images drag the image into the img folder and put "img/" infront of the file name 
+		use img/linearf.png for linear freq graphs and img/naf.png for ones that you dont know
         */
 		//anything after this point do not touch (you can still read though)
 	];
