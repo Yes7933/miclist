@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			usage: ["Live Vocals"],
 			owner: "GHS",
 			quantity: "5",
-			image: "img/SM58.png",
-			freqgraph: "img/sm58f.png",
+			image: "/img/SM58.png",
+			freqgraph: "/img/sm58f.png",
 			freqrange: "50-15000Hz",
 		},
 		{
