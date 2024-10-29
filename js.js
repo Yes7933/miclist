@@ -571,10 +571,10 @@ document.addEventListener("DOMContentLoaded", () => {
         */
 		//anything after this point do not touch (you can still read though)
 	];
-	//this creates each mic display thing
+	//this creates each mic display box and styles it
 	function micdisplays() {
 		miclist.forEach((element) => {
-			let e = document.createElement("div");
+			let e = document.createElement("div"); //start with the box for everything
 			e.classList.add("mic");
 			if (document.getElementById(element.name) === null) {
 				e.id = element.name;
@@ -582,66 +582,66 @@ document.addEventListener("DOMContentLoaded", () => {
 				e.id = element.name + "(2)";
 			}
 			document.getElementById("miclist").appendChild(e);
-			let e2 = document.createElement("div");
+			let e2 = document.createElement("div"); //container for image
 			e2.classList.add("imagecontainer");
 			e.appendChild(e2);
-			let child = document.createElement("img");
+			let child = document.createElement("img"); //image
 			child.src = element.image;
 			child.classList.add("image");
 			e2.appendChild(child);
-			e2 = document.createElement("div");
+			e2 = document.createElement("div"); // countainer for text
 			e2.classList.add("textcontainer");
 			e.appendChild(e2);
-			child = document.createElement("div");
+			child = document.createElement("div"); //name or title first
 			child.innerHTML = element.name;
 			child.classList.add("title");
 			e2.appendChild(child);
-			child = document.createElement("div");
+			child = document.createElement("div"); //manufacturer
 			child.innerHTML = "Manufacturer: " + element.manufacturer;
 			child.classList.add("manufacturer");
 			e2.appendChild(child);
-			child = document.createElement("div");
+			child = document.createElement("div"); //type
 			child.innerHTML = "Mic Type: " + element.type;
 			child.classList.add("type");
 			e2.appendChild(child);
-			child = document.createElement("div");
+			child = document.createElement("div"); //pattern
 			child.innerHTML = "Polar Pattern: " + element.pattern;
 			child.classList.add("pattern");
 			e2.appendChild(child);
-			child = document.createElement("div");
+			child = document.createElement("div"); //usages
 			let tempstring = "Common Usages: ";
 			child.classList.add("type");
 			e2.appendChild(child);
-			element.usage.forEach((u) => {
+			element.usage.forEach((u) => { //looping through the usage list
 				tempstring += " " + u + ", ";
 			});
-			tempstring = tempstring.substring(0, tempstring.length - 2);
+			tempstring = tempstring.substring(0, tempstring.length - 2); //cut last comma
 			child.innerHTML = tempstring;
-			child = document.createElement("div");
+			child = document.createElement("div"); //owner
 			child.innerHTML = "Owner: " + element.owner;
 			child.classList.add("owner");
 			e2.appendChild(child);
-			child = document.createElement("div");
+			child = document.createElement("div"); //quantity
 			child.innerHTML = "Quantity: " + element.quantity;
 			child.classList.add("quantity");
 			e2.appendChild(child);
-			child = document.createElement("div");
+			child = document.createElement("div"); //frequency range
 			child.innerHTML = "Frequency Range: " + element.freqrange;
 			child.classList.add("freqrange");
 			e2.appendChild(child);
-			child = document.createElement("div");
+			child = document.createElement("div"); //description, with quotation marks
 			child.innerHTML = "&#x201C;" + element.description + "&#x201D;";
 			child.classList.add("description");
 			e.appendChild(child);
-			e2 = document.createElement("div");
+			e2 = document.createElement("div"); //container for graph
 			e2.classList.add("graphcontainer");
 			e.appendChild(e2);
-			child = document.createElement("img");
+			child = document.createElement("img"); //graph
 			child.src = element.freqgraph;
 			child.classList.add("freqgraph");
 			e2.appendChild(child);
 		});
-		child = document.createElement("div");
+		child = document.createElement("div"); //final entry with info text
 		child.classList.add("thinger");
 		child.innerHTML = "If this is the only thing you are seeing, there are no results. Refresh to clear your filters. <br> Otherwise, this is the end of the page.";
 		document.getElementById("miclist").appendChild(child);
@@ -652,17 +652,18 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 	//filter functionality
 	function filter() {
+		//for each filter make a running list of all filters turned on
 		let ownerlist2 = ownerlist.slice(0, -1).filter((e, i) => filterstatus[i] === true);
 		let typelist2 = typelist.slice(0, -1).filter((e, i) => filterstatus[i + ownerlist.length - 1] === true);
 		let usagelist2 = usagelist.slice(0, -1).filter((e, i) => filterstatus[i + ownerlist.length + typelist.length - 2] === true);
 		let patternlist2 = patternlist.filter((e, i) => filterstatus[i + ownerlist.length + typelist.length + usagelist.length - 3] === true);
-		miclist.forEach((e, i) => {
+		miclist.forEach((e, i) => { //loop through each microphone
 			let usagecheck = false;
 			let element = document.querySelectorAll(".mic")[i];
 			e.usage.forEach((e2) => {
-				usagelist2.includes(e2) ? (usagecheck = true) : 0;
+				usagelist2.includes(e2) ? (usagecheck = true) : 0; //check for usage first
 			});
-			window.console.log(typelist2.includes(e.type) || typelist2.length === 0 || typelist2.length === typelist.length - 1);
+			//check if filters are on, and if every filter is off or on
 			if (
 				(ownerlist2.includes(e.owner) || ownerlist2.length === 0 || ownerlist2.length === ownerlist.length - 1) &&
 				(typelist2.includes(e.type) || typelist2.length === 0 || typelist2.length === typelist.length - 1) &&
@@ -689,15 +690,15 @@ document.addEventListener("DOMContentLoaded", () => {
 	function filters() {
 		let parent = document.getElementById("ownershipfiltercontainer");
 		miclist.forEach((element) => {
-			ownerlist.push(element.owner);
+			ownerlist.push(element.owner); //grab all the owners
 		});
-		ownerlist = unique(ownerlist);
+		ownerlist = unique(ownerlist); //remove duplicates
 		if (ownerlist.indexOf("n/a") !== -1 && ownerlist.indexOf("n/a") !== ownerlist.length - 1) {
 			ownerlist[ownerlist.indexOf("n/a")] = ownerlist[ownerlist.length - 1];
 			ownerlist[ownerlist.length - 1] = "n/a";
-		}
+		} //handling n/a entries
 		filterstart.push(ownerlist.length);
-		ownerlist.forEach((element) => {
+		ownerlist.forEach((element) => { //create a button for each entry
 			if (element !== "n/a") {
 				let button = document.createElement("button");
 				button.classList.add("ownerfilter");
@@ -705,7 +706,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				button.id = element;
 				button.innerHTML = element;
 				parent.appendChild(button);
-				button.addEventListener("click", () => {
+				button.addEventListener("click", () => { //functionality of each filter button
 					let index = parseInt(button.classList[1].slice(6));
 					filterstatus[index] = !filterstatus[index];
 					if (filterstatus[index]) {
@@ -718,6 +719,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				filterindex++;
 			}
 		});
+		//repeats 3 more times with all the other filters
 		parent = document.getElementById("typefiltercontainer");
 		miclist.forEach((element) => {
 			typelist.push(element.type);
@@ -727,7 +729,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			typelist[typelist.indexOf("n/a")] = typelist[typelist.length - 1];
 			typelist[typelist.length - 1] = "n/a";
 		} else if (typelist.indexOf("n/a") === -1) {
-			typelist.push("n/a");
+			typelist.push("n/a"); //this is special because there isn't a mic with "n/a"
 		}
 		filterstart.push(typelist.length);
 		typelist.forEach((element) => {
@@ -816,6 +818,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			}
 		});
 	}
+	//run everything once compiled, finishing all of this
 	micdisplays();
 	filters();
 });

@@ -5,14 +5,14 @@ body {
 	background-color: var(--light2);
 }
 :root {
-	--dark1: #3c4344;
-	--dark2: white;
-	--main1: #ffb272;
-	--main2: #a4e0d8;
-	--main3: #c98c5b;
-	--light1: #d2faf5;
-	--light2: #68c0b4;
-	--light3: #c5ffc8;
+	--dark1: #3c4344; /* outline color */
+	--dark2: white; /* image background color */
+	--main1: #ffb272; /* mic box/filter color */
+	--main2: #a4e0d8; /* mic list background color */
+	--main3: #c98c5b; /* button color */
+	--light1: #d2faf5; /* header color */
+	--light2: #68c0b4; /* page background color */
+	--light3: #c5ffc8; /* filter on color */
 }
 button {
 	display: none;
