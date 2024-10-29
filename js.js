@@ -663,16 +663,16 @@ document.addEventListener("DOMContentLoaded", () => {
 			e.usage.forEach((e2) => {
 				usagelist2.includes(e2) ? (usagecheck = true) : 0; //check for usage first
 			});
-			//check if filters are on, and if every filter is off or on
+			//check if filters are on, and if every filter is off or on (this took me 2 out of the 4 days i worked on this)
 			if (
 				(ownerlist2.includes(e.owner) || ownerlist2.length === 0 || ownerlist2.length === ownerlist.length - 1) &&
 				(typelist2.includes(e.type) || typelist2.length === 0 || typelist2.length === typelist.length - 1) &&
 				(usagecheck || usagelist2.length === 0 || usagelist2.length === usagelist.length - 1) &&
 				(patternlist2.includes(e.pattern) || patternlist2.length === 0 || patternlist2.length === patternlist2.length - 1)
 			) {
-				element.style.display = "grid";
+				element.style.display = "grid"; //displays element if it meets all the criteria
 			} else {
-				element.style.display = "none";
+				element.style.display = "none"; //hides if it doesn't
 			}
 		});
 	}
